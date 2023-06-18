@@ -17,3 +17,15 @@ Please follow these steps to get started.
    npm run build
    node server.js
    ```
+
+## How to train your custom data
+
+Please follow these steps to train your custom data.
+
+1. In the `data` folder there is a `input.txt` file. Replace the content of the file with your content in txt format.
+2. Delete the `input.input` folder present in the project root.
+3. Run the following commands -
+   ```
+   node server.js
+   ```
+4. After running the above command new Vector Index will be created.
