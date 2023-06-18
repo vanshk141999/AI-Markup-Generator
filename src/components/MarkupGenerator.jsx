@@ -66,7 +66,6 @@ const MarkupGenerator = () => {
                 fill="currentFill"
               />
             </svg>
-            <span className="sr-only">Loading...</span>
           </div>
         </button>
       </form>

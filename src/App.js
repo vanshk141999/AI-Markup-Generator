@@ -1,15 +1,7 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MarkupGenerator from "./components/app/MarkupGenerator.jsx";
+import MarkupGenerator from "./components/MarkupGenerator.jsx";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<MarkupGenerator />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <MarkupGenerator />;
 }
 
 export default App;
