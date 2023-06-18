@@ -5,7 +5,6 @@ This app generates a custom form Markup using OpenAI API & Langchain.
 ## Prerequisites
 
 1. Node
-2. Nodemon
 
 ## Get Started
 
@@ -16,5 +15,5 @@ Please follow these steps to get started.
    ```
    npm i
    npm run build
-   nodemon server.js
+   node server.js
    ```
