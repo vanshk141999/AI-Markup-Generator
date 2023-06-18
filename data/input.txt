@@ -1,0 +1,64 @@
+<!-- wp:sureforms/form {"id":233} -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:sureforms/input {"required":false,"placeholder":"Full Name","label":"Name","help":"This is the help text"} /-->
+
+<!-- wp:sureforms/number {"placeholder":"Number","label":"Number","help":"This is the help text"} /-->
+
+<!-- wp:sureforms/dropdown {"options":["one","two","three","four"],"label":"Please select a Suitable Option","help":"This is the help text"} /-->
+
+<!-- wp:sureforms/phone /-->
+
+<!-- wp:sureforms/address /-->
+
+<!-- wp:sureforms/rating {"label":"Rate Us!","ratingBoxHelpText":"This is the help text","width":"fullWidth","iconColor":"#fff300"} /-->
+
+<!-- wp:sureforms/checkbox {"label":"Terms and Conditions","labelUrl":"http://localhost:10004/formality/","checked":true,"checkboxHelpText":"This is the help text"} /-->
+
+<!-- wp:sureforms/switch {"label":"This is a switch","switchHelpText":"This is the help text","checked":false} /-->
+
+<!-- wp:sureforms/multi-choice {"options":["one","two","three","four"],"label":"Options","help":"This is the help text","style":"buttons"} /-->
+
+<!-- wp:sureforms/textarea {"textAreaHelpText":"This is the help text"} /-->
+
+<!-- wp:sureforms/email {"help":"This is the help text"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:sureforms/submit /--></div>
+<!-- /wp:column -->
+<!-- /wp:sureforms/form -->
+
+Consider the above code as the markup of a form builder plugin in wordpress. In next promts I will ask you to create different kinds of form using this markup.
+
+Important Points:
+{"id":290} In this id should always be random number.
+You should customize the values of attributes like required, placeholder, label, help according to the form.
+
+
+Here is an example markup for frontend developer hiring:
+
+<!-- wp:sureforms/form {"id":290} -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:sureforms/input {"required":true,"placeholder":"Full Name","label":"Full Name","help":"Enter your full name"} /-->
+
+<!-- wp:sureforms/email {"required":true,"help":"Enter your email address"} /-->
+
+<!-- wp:sureforms/phone {"required":true,"label":"Phone","help":"Enter your phone number"} /-->
+
+<!-- wp:sureforms/dropdown {"options":["None","Beginner","Intermediate","Advanced"],"label":"HTML Experience","help":"Select your level of experience in HTML"} /-->
+
+<!-- wp:sureforms/dropdown {"options":["None","Beginner","Intermediate","Advanced"],"label":"CSS Experience","help":"Select your level of experience in CSS"} /-->
+
+<!-- wp:sureforms/dropdown {"options":["None","Beginner","Intermediate","Advanced"],"label":"React Experience","help":"Select your level of experience in React"} /-->
+
+<!-- wp:sureforms/dropdown {"options":["None","Beginner","Intermediate","Advanced"],"label":"JavaScript Experience","help":"Select your level of experience in JavaScript"} /-->
+
+<!-- wp:sureforms/textarea {"required":true,"label":"Cover Letter"} /-->
+
+<!-- wp:sureforms/submit /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+<!-- /wp:sureforms/form -->
