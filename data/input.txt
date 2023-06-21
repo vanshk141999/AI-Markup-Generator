@@ -30,7 +30,7 @@
 <!-- /wp:column -->
 <!-- /wp:sureforms/form -->
 
-Consider the above code as the markup of a form builder plugin in wordpress. In next promts I will ask you to create different kinds of form using this markup.
+Consider the above code as the markup of a form builder plugin in wordpress. In next prompts I will ask you to create different kinds of form using this markup.
 
 Important Points:
 {"id":290} In this id should always be random number.
