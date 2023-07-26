@@ -1,4 +1,4 @@
-# Markup Generator AI App
+# AI Markup Generator
 
 This app generates a custom form Markup using OpenAI API & Langchain.
 
